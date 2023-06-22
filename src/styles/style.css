@@ -1,0 +1,11 @@
+body {
+	background-color: dimgrey;
+	height: 770px;
+}
+img {
+	margin-top: 200px;
+	width: 200px;
+}
+div {
+	text-align: center;
+}
