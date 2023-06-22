@@ -50,16 +50,6 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
-/***/ "./src/images/dragon.png":
-/*!*******************************!*\
-  !*** ./src/images/dragon.png ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"7995ec25f26c2a99cf9dba1f2b748ad6.png\");\n\n//# sourceURL=webpack://webpack/./src/images/dragon.png?");
-
-/***/ }),
-
 /***/ "./src/styles/style.less":
 /*!*******************************!*\
   !*** ./src/styles/style.less ***!
@@ -146,7 +136,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _styles_style_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/style.less */ \"./src/styles/style.less\");\n/* harmony import */ var _images_dragon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/dragon.png */ \"./src/images/dragon.png\");\n\r\n\r\n\r\n\r\ndocument.querySelector(\".img img\").src=_images_dragon_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"];\n\n//# sourceURL=webpack://webpack/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _styles_style_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/style.less */ \"./src/styles/style.less\");\n/* harmony import */ var _images_dragon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/dragon.png */ \"./src/images/dragon.png\");\n\r\n\r\n\r\n\r\ndocument.querySelector(\".img img\").src=_images_dragon_png__WEBPACK_IMPORTED_MODULE_2__;\n\n//# sourceURL=webpack://webpack/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/images/dragon.png":
+/*!*******************************!*\
+  !*** ./src/images/dragon.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7995ec25f26c2a99cf9d.png\";\n\n//# sourceURL=webpack://webpack/./src/images/dragon.png?");
 
 /***/ })
 
