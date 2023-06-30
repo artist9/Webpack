@@ -1,5 +1,6 @@
-import "./styles/style.css";
-import "./styles/style.less";
-import drag from "./images/dragon.png";
+import React from "react";
+import { createRoot } from 'react-dom/client';
 
-document.querySelector(".img img").src=drag;
+const app = <h1>This is new React APP</h1>;
+
+createRoot(document.getElementById('root')).render(app);
